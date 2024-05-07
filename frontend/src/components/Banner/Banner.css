@@ -1,0 +1,25 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    background-color: #ced5d5;
+    padding: 0;
+  }
+  
+ .desc {
+    margin-left: 20px;
+  }
+  
+@media (max-width: 480px) {
+    .banner{
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid #ccc;
+        background-color: #ced5d5;
+        padding: 0;
+        flex-direction: column;
+    }
+    .desc{
+        margin-left: 0rem;
+    }
+}
