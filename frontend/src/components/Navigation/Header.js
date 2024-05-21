@@ -39,6 +39,7 @@ const styles = {
     borderBottom: '2px solid #ccc',
     backgroundColor: '#ecddd5',
     padding: 0, // Add padding for better spacing
+    zIndex: 100,
   },
     nav: {
         marginLeft: 20, // Add margin for better spacing

@@ -2,11 +2,11 @@ import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import './App.css';
 import Home from './Pages/Home';
 import Header from './components/Navigation/Header';
-import Signup from './Pages/signup';
+import Signup from './Pages/Auth/signup';
 function App() {
   return (
     <BrowserRouter>
-    <div style={{top:'0',position:'fixed',width:'100%'}}><Header /></div>
+    <div style={{top:'0',position:'fixed',width:'100%',zIndex:10}}><Header /></div>
 
       <Routes>
         <Route path="/" element={<Home/>} />

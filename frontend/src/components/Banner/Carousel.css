@@ -6,7 +6,8 @@
     align-items: center;
     width: 480px;
     height: 480px;
-    margin-top:4.5rem;
+    margin-top:2.5rem;
+    z-index: 0;
   }
   
   .slide {

@@ -28,6 +28,9 @@ const bannerData = {
             ratings: 2
         }
 
+    ],
+    popularProducts:[
+        
     ]
 };
 

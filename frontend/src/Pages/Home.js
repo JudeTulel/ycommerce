@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../components/Navigation/Header'
 import Banner from '../components/Banner/Banner'
 import HorizontalList from '../components/Horizontal/HorizontalList'
 import bannerData from '../components/Banner/data'
