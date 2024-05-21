@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import Carousel from './Carousel'
 import bannerData from './data'
 import { BsStarFill } from 'react-icons/bs'
+import './Banner.css'
 const images = bannerData.images.map((image) => {
     return {
         src: image.src,
@@ -29,7 +30,7 @@ const Banner = () => {
         return () => window.removeEventListener('slideChange', handleSlideChangeEvent); // Cleanup
       }, []); 
   return (
-    <div  className='banner'>
+    <div  className='banner' >
     <div  className='desc'>
     <h1> {currentTitle} </h1>
     <p>{currentDescription}</p>
@@ -56,4 +57,5 @@ const styles = {
     desc: {
         marginLeft: 20,
     }
+    
 }

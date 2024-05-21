@@ -20,9 +20,16 @@ const bannerData = {
             description: "Image 4Image 4Image 4Image 4Image 4Image 4Image 4Image 4",
             title: "Title 4",
             ratings: 2
+        },
+        {
+            src: banner3,
+            description: "Image 4Image 4Image 4Image 4Image 4Image 4Image 4Image 4",
+            title: "Title 4",
+            ratings: 2
         }
 
     ]
 };
+
 
 export default bannerData;

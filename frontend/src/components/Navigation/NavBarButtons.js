@@ -6,7 +6,7 @@ const NavBarButtons = () => {
   return (
     <div>
         <div style={styles.container}>
-        <NavLink to="/Login" style={styles.nav}>
+        <NavLink to="/signup" style={styles.nav}>
             <FontAwesomeIcon icon={faUser} color='orange' />
             Login
         </NavLink>

@@ -1,25 +1,23 @@
-.banner {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 2px solid #ccc;
-    background-color: #ced5d5;
-    padding: 0;
-  }
-  
- .desc {
-    margin-left: 20px;
-  }
-  
-@media (max-width: 480px) {
-    .banner{
+   .banner{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         border-bottom: 2px solid #ccc;
         background-color: #ced5d5;
         padding: 0;
-        flex-direction: column;
+    
     }
     .desc{
-        margin-left: 0rem;
+        margin-left: 20;
+        
+    }
+@media (max-width:480px) {
+    .banner{
+        display: flex;
+        justify-content: safe;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .desc{
+        margin-left: 20;
     }
 }
