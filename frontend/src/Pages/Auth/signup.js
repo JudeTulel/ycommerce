@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faLock } from '@fortawesome/free-solid-svg-icons';
+import { faUser,faEnvelope,faPhone,faLock } from '@fortawesome/free-solid-svg-icons';
+
 import './signup.css';
+import { Link } from 'react-router-dom';
 const Signup = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -78,9 +77,11 @@ const Signup = () => {
         onChange={(e) => setEmail(e.target.value)}
       />
       </div>
-      <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
+      <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
       <button onClick={handleSignup} className='button'>Sign Up</button>
+      <Link to='login'><p style={{color:'blue',cursor:'-moz-grab'}}>Already have an account</p></Link>
       </div>
+
       </div>
     </div>
   );

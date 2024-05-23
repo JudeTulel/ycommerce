@@ -46,16 +46,3 @@ const Banner = () => {
 
 export default Banner
 
-const styles = {
-    banner: {
-        display: 'flex',
-        justifyContent: 'space-between',
-        borderBottom: '2px solid #ccc',
-        backgroundColor: '#ced5d5',
-        padding: 0,
-    },
-    desc: {
-        marginLeft: 20,
-    }
-    
-}

@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../components/Banner/Banner'
 import HorizontalList from '../components/Horizontal/HorizontalList'
 import bannerData from '../components/Banner/data'
-const images = bannerData.images.map((image) => {
+const images = bannerData.popularProducts.map((image) => {
   return {
     src: image.src,
     title: image.title,
